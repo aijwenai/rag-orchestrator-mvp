@@ -1,0 +1,4 @@
+# guardrails for fun theme (MVP placeholders)
+nsfw_terms:
+  - '(?i)nsfw|explicit'
+policy: "Keep content family-friendly."

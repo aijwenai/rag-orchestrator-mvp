@@ -1,0 +1,5 @@
+# guardrails for infra theme (MVP placeholders)
+block_patterns:
+  - '(?i)api_key|secret|password'
+  - '(?i)internal ip|vpn credentials'
+fallback_disclaimer: "This assistant cannot disclose sensitive credentials."

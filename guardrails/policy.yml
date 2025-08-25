@@ -1,0 +1,4 @@
+# guardrails for policy theme (MVP placeholders)
+block_categories:
+  - legal_advice
+disclaimer: "This is not legal advice. Please consult a qualified professional."

@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus
+  metrics:
+    tags:
+      application: rag-orchestrator-mvp
+
+app:
+  theme: infra         # infra | policy | fun
+  vector:
+    backend: stub      # stub | pgvector | qdrant
